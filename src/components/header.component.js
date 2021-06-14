@@ -1,47 +1,31 @@
 import React, { Component } from "react"
-import { Button,Navbar, Nav,  FormControl, Form} from 'react-bootstrap';
+import { Button,Navbar, Nav,  FormControl, Form, NavDropdown} from 'react-bootstrap';
 function Header() {
     return (
         <>
         <Navbar bg="dark" variant="dark">
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Navbar.Brand href="#home">Ray's  </Navbar.Brand>
           <Nav className="mr-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            
+                <NavDropdown title="Items" id="navbarScrollingDropdown">
+                    <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+                    <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
+                    <NavDropdown.Divider />
+                    <NavDropdown.Item href="#action5">Something else here</NavDropdown.Item>
+                </NavDropdown>
+           
+           
+            <Nav.Link href="#pricing">About us</Nav.Link>
+            <Nav.Link href="#pricing">Contact us</Nav.Link>
           </Nav>
           <Form inline>
             <FormControl type="text" placeholder="Search" className="mr-sm-2" />
             <Button variant="outline-info">Search</Button>
           </Form>
         </Navbar>
-        <br />
-        <Navbar bg="primary" variant="dark">
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="mr-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-          </Nav>
-          <Form inline>
-            <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-            <Button variant="outline-light">Search</Button>
-          </Form>
-        </Navbar>
-      
-        <br />
-        <Navbar bg="light" variant="light">
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="mr-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-          </Nav>
-          <Form inline>
-            <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-            <Button variant="outline-primary">Search</Button>
-          </Form>
-        </Navbar>
+       
+        
       </>
     );
   }
