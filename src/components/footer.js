@@ -1,5 +1,5 @@
 import React from 'react'
-import Carousel from 'react-bootstrap/Carousel'
+
 
 function Slider(){
 
@@ -12,7 +12,7 @@ return(
             borderColor : '#000000'
         }} />
         <p>
-          &copy; {new Date().getFullYear()} Copyright: Ray's Global Association | Designed By:<a href="https://www.mdbootstrap.com"> Maaz Abdullah </a>
+          &copy; {new Date().getFullYear()} Copyright: Ray's Global Association | Designed By:<a href="https://maazabdullah.netlify.app/"> Maaz Abdullah </a>
         </p>
       </div>
 

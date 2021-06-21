@@ -3,6 +3,7 @@ import React from "react";
 import Header from '../src/components/header'
 import Slider from '../src/components/slider'
 import Footer from '../src/components/footer'
+import Product from '../src/components/product'
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <>
      <Header />
      <Slider />
+     <Product />
      <Footer />
      </>
      );
