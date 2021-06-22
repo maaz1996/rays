@@ -1,10 +1,12 @@
 import React from 'react'
-import { Row,Col, Card,Navbar} from 'react-bootstrap';
-
+import { Row,Col, Card} from 'react-bootstrap';
+import '../components/style/product.style.css'
 function Product(){
 
 return(
-    <Row xs={1} md={2} className="g-4">
+    <div className='heading'>
+        <h1 className='center'>Products</h1>
+    <Row xs={1} md={2} className="g-4" >
   {Array.from({ length: 4 }).map((_, idx) => (
     <Col>
       <Card>
@@ -20,6 +22,7 @@ return(
     </Col>
   ))}
 </Row>
+</div>
 )
 
 }

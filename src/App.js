@@ -1,18 +1,16 @@
 import React from "react";
 
-import Header from '../src/components/header'
-import Slider from '../src/components/slider'
-import Footer from '../src/components/footer'
-import Product from '../src/components/product'
+import Home from '../src/parts/Home'
+import AboutUs from '../src/parts/AboutUs'
+
 
 
 function App() {
   return (
       <>
-     <Header />
-     <Slider />
-     <Product />
-     <Footer />
+     <Home />
+     <AboutUs />
+    
      </>
      );
 }

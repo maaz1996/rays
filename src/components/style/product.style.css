@@ -1,0 +1,18 @@
+.heading{
+    
+        background-color: #282c34;
+        color: white;
+        padding: 40px;
+        font-family: Arial;
+        text-align: center;
+    
+}
+
+.g-4{
+
+    color: DodgerBlue;
+    padding: 40px;
+    margin-bottom: 40px;
+    font-family: Arial;
+    text-align: center;
+}
