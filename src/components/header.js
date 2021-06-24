@@ -6,12 +6,12 @@ function Header() {
     return (
         
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top" className="main1">
-        <Navbar.Brand href="#home">Ray's</Navbar.Brand>
+        <Navbar.Brand href="/">Ray's</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-          <Nav.Link href="#features">Home</Nav.Link>
-            <Nav.Link href="#features">About Us</Nav.Link>
+          <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="aboutus">About Us</Nav.Link>
             
             <NavDropdown title="Product" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Product1</NavDropdown.Item>
@@ -20,7 +20,7 @@ function Header() {
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#deets">Contact Us</Nav.Link>
+            <Nav.Link href="contactus">Contact Us</Nav.Link>
           </Nav>
           
             

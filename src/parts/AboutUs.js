@@ -1,7 +1,7 @@
 import React from "react";
 
 import Header from '../components/header'
-import Slider from '../components/slider'
+import Slider from '../components/slider2'
 import Footer from '../components/footer'
 
 
@@ -10,7 +10,7 @@ function Home() {
   return (
       <>
      <Header />
-     <Slider />
+     <Slider name="About Us" />
      <Footer />
      </>
      );
