@@ -10,7 +10,7 @@ import React from "react";
  * disable the animation by using the disabled prop.
  *
  * The App component below is using React router to render the landing page that you see on the live demo website
- * and the component previews.
+ * and import { BrowserRouter as Router, Switch, Route } from "react-router-dom";the component previews.
  *
  */
 
@@ -101,9 +101,6 @@ import React from "react";
 // import PrivacyPolicyPage from "pages/PrivacyPolicy.js";
 
 import Header from "../components/header";
-import Footer from "../components/footer"
-
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 export default function App() {
   // If you want to disable the animation just use the disabled `prop` like below on your page's component
@@ -111,18 +108,11 @@ export default function App() {
 
 
   return (
-    <Router>
-      <Switch>
-        <Route>
+    <>
           <Header />
-        </Route>
-        <Route>
-          <Footer />
-        </Route>
         
-        
-      </Switch>
-    </Router>
+          
+    </>
   );
 }
 
