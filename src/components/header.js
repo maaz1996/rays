@@ -6,7 +6,7 @@ import Hero from "components/hero/TwoColumnWithVideo.js";
 import Features from "components/features/ThreeColSimple.js";
 import MainFeature from "components/features/TwoColWithButton.js";
 import MainFeature2 from "components/features/TwoColSingleFeatureWithStats2.js";
-import TabGrid from "components/cards/TabCardGrid.js";
+
 import Testimonial from "components/testimonials/ThreeColumnWithProfileImage.js";
 
 import Footer from "components/footers/MiniCenteredFooter";
@@ -23,13 +23,13 @@ export default () => {
   return (
     <AnimationRevealPage>
       <Hero
-        heading={<>Delicious & Affordable <HighlightedText>Meals Near You.</HighlightedText></>}
+        heading={<>Great & Affordable <HighlightedText>Deals Near You.</HighlightedText></>}
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        imageSrc="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
+        imageSrc="https://images.unsplash.com/photo-1506442104373-3dc54b678ba7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
         imageCss={imageCss}
         imageDecoratorBlob={true}
         primaryButtonText="Order Now"
-        watchVideoButtonText="Meet The Chefs"
+        watchVideoButtonText="Meet The Team"
       />
       <MainFeature
         subheading={<Subheading>Established Since 2014</Subheading>}
@@ -52,20 +52,14 @@ export default () => {
         textOnLeft={false}
         primaryButtonText="Latest Offers"
         imageSrc={
-          "https://images.unsplash.com/photo-1460306855393-0410f61241c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
+          "https://images.unsplash.com/photo-1505664194779-8beaceb93744?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
         }
         imageCss={imageCss}
         imageDecoratorBlob={true}
         imageDecoratorBlobCss={tw`left-1/2 -translate-x-1/2 md:w-32 md:h-32 opacity-25`}
       />
       {/* TabGrid Component also accepts a tabs prop to customize the tabs and its content directly. Please open the TabGrid component file to see the structure of the tabs props.*/}
-      <TabGrid
-        heading={
-          <>
-            Checkout our <HighlightedText>menu.</HighlightedText>
-          </>
-        }
-      />
+     
       <Features
         heading={
           <>
@@ -81,13 +75,13 @@ export default () => {
           },
           {
             imageSrc: chefIconImageSrc,
-            title: "Professional Chefs",
+            title: "Professional People",
             description: "Lorem ipsum donor amet siti ceali placeholder text",
             url: "https://timerse.com"
           },
           {
             imageSrc: celebrationIconImageSrc,
-            title: "Birthday Catering",
+            title: "Events and Occassions",
             description: "Lorem ipsum donor amet siti ceali placeholder text",
             url: "https://reddit.com"
           }
@@ -116,7 +110,7 @@ export default () => {
         primaryButtonText="Order Now"
         primaryButtonUrl="https://order.now.com"
         imageInsideDiv={false}
-        imageSrc="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEzNzI2fQ&auto=format&fit=crop&w=768&q=80"
+        imageSrc="https://images.unsplash.com/photo-1555667316-74c72ee7757d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80"
         imageCss={Object.assign(tw`bg-cover`, imageCss)}
         imageContainerCss={tw`md:w-1/2 h-auto`}
         imageDecoratorBlob={true}
