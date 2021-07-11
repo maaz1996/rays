@@ -9,7 +9,7 @@ import Product from "../src/parts/Product";
 import Contact from "../src/parts/ContactUs"
 
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 export default function App() {
   // If you want to disable the animation just use the disabled `prop` like below on your page's component

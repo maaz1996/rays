@@ -11,10 +11,9 @@ import Footer from "components/footers/MiniCenteredFooter";
 export default function product() {
   // If you want to disable the animation just use the disabled `prop` like below on your page's component
   // return <AnimationRevealPage disabled>xxxxxxxxxx</AnimationRevealPage>;
-  const Subheading = tw.span`tracking-wider text-sm font-medium`;
+
   const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
-  const HighlightedTextInverse = tw.span`bg-gray-100 text-primary-500 px-4 transform -skew-x-12 inline-block`;
-  const Description = tw.span`inline-block mt-8`;
+ 
   const imageCss = tw`rounded-4xl`;
 
   return (
