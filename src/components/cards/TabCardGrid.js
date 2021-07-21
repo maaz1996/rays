@@ -64,7 +64,7 @@ export default ({
     Rings: [
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1551947391-249dcb8ed976?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80",
+          "/images/1626708733256.jpg",
         title: "Gem1",
         content: "Fine Cut",
         price: "$5.99",
@@ -74,7 +74,7 @@ export default ({
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1597008641621-cefdcf718025?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=637&q=80",
+          "/images/1626708733281.jpg",
         title: "Gem2",
         content: "Found",
         price: "$2.99",
@@ -84,7 +84,7 @@ export default ({
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1534882974931-c092f1562251?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=756&q=80",
+          "/images/1626708733304.jpg",
         title: "Neel",
         content: "Thanos",
         price: "$7.99",
@@ -94,7 +94,7 @@ export default ({
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1583937443325-97becde478a8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+          "/images/1626708733400.jpg",
         title: "Jalapeno Poppers",
         content: "Rings",
         price: "$8.99",
