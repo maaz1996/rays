@@ -65,20 +65,21 @@ export default () => {
   const cards = [
     {
       imageSrc: ShieldIconImage,
-      title: "Ads Management",
+      title: "PLACEMENT",
       description: "We create and manage ads that you need, from creation to deployment. Lorem ipsum donor sit amet consicou."
     },
-    { imageSrc: SupportIconImage, title: "Video Marketing" },
-    { imageSrc: CustomizeIconImage, title: "Customer Relation" },
-    { imageSrc: ReliableIconImage, title: "Product Outreach" },
-    { imageSrc: FastIconImage, title: "PR Campaign" },
-    { imageSrc: SimpleIconImage, title: "Product Expansion" }
+    { imageSrc: SupportIconImage, title: "EVENTS ORGANIZERS" },
+    { imageSrc: CustomizeIconImage, title: "BUSINESS DEVELOPMENT ADVISER" },
+    { imageSrc: ReliableIconImage, title: "PROPERTY ADVISER" },
+    // { imageSrc: FastIconImage, title: "CONTACT NUMBER 0000000000 EMAIL ID XXXXXXXX" },
+    // { imageSrc: SimpleIconImage, title: "Product Expansion" }
   ];
 
   return (
     <Container>
       <ThreeColumnContainer>
-        <Heading>Our Professional <span tw="text-primary-500">Services</span></Heading>
+        <Heading>Business Associates <span tw="text-primary-500">
+     Rays Creation</span></Heading>
         {cards.map((card, i) => (
           <Column key={i}>
             <Card>
@@ -94,6 +95,11 @@ export default () => {
             </Card>
           </Column>
         ))}
+        <Heading >Business Associates <span tw="text-primary-500">
+     Rays Creation</span></Heading>
+     <Heading >Business Associates <span tw="text-primary-500">
+     Rays Creation</span></Heading>
+        
       </ThreeColumnContainer>
       <DecoratorBlob />
     </Container>
