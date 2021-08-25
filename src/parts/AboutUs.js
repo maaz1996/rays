@@ -5,6 +5,8 @@ import Hero from "../components/hero/TwoColumnWithVideo"
 import AnimationRevealPage  from "helpers/AnimationRevealPage";
 import Cards from "../components/cards/ProfileThreeColGrid"
 import Feature from "../components/features/DashedBorderSixFeatures"
+import Feature2 from "../components/features/Feature2"
+import Feature3 from "components/features/Feature3";
 import Footer from "components/footers/MiniCenteredFooter";
 
 
@@ -29,6 +31,8 @@ export default function Aboutus() {
       />
       <Cards />
       <Feature />
+      <Feature2 />
+      <Feature3 />
       <Footer />
        </AnimationRevealPage>
   );

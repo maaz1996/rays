@@ -74,14 +74,13 @@ export default () => {
     // { imageSrc: FastIconImage, title: "CONTACT NUMBER 0000000000 EMAIL ID XXXXXXXX" },
     // { imageSrc: SimpleIconImage, title: "Product Expansion" }
   ];
-  // const CopyrightText = tw.p`text-center mt-10 font-medium tracking-wide text-sm text-gray-600`
+//   const CopyrightText = tw.p`text-center mt-10 font-medium tracking-wide text-sm text-gray-600`
   const Heading = tw(SectionHeading)`w-full`;
 const Heading1 = tw(Subheading)`w-full text-center mt-10 tracking-wide text-sm text-gray-600`;
   return (
     <Container>
       <ThreeColumnContainer>
-        <Heading>Business Associates <span tw="text-primary-500">
-     Rays Creation</span></Heading>
+        <Heading> RAYS NGOs </Heading>
         {cards.map((card, i) => (
           <Column key={i}>
             <Card>
@@ -101,7 +100,7 @@ const Heading1 = tw(Subheading)`w-full text-center mt-10 tracking-wide text-sm t
       <Heading1 >CONTACT NUMBER: <span tw="text-primary-500">
       0000000000</span></Heading1>
      <Heading1 >EMAIL ID: <span tw="text-primary-500">
-     RAYSGEMSTONEANTIQUES@GAMAIL.COM</span></Heading1>
+     RAYSGEMSTONEANTIQUES@GAMAIL.COM    </span></Heading1>
       <DecoratorBlob />
     </Container>
   );
